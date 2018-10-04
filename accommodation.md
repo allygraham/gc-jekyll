@@ -1,6 +1,7 @@
 ---
 title: Accommodation
 layout: default
+order: 2
 ---
 
 <section class="box special features padding-half">

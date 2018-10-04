@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Accommodation - Garden Cottage, Crail</title>
+		<title>{{ page.title }} | {{ site.title }}</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/slick/slick.css" />
@@ -17,12 +17,9 @@
 					<h1 class="h1--home"><a href="index.html"><img src="assets/images/garden-cottage-logo.png" /></a></h1>
 					<nav id="nav">
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="accommodation.html" class="active">Accommodation</a></li>
-							<li><a href="bookings.html">Bookings and Availability</a></li>
-							<li><a href="your-stay.html">Your Stay</a></li>
-							<li><a href="reviews.html">Reviews</a></li>
-							<li><a href="contact.html">Contact</a></li>
+              {% for item in site.data.navigation.pages %}
+              <li><a href="{{ item.url }}" class="{% if item.url == page.url%}active{% endif %}">{{ item.title }}</a></li>
+              {% endfor %}
 						</ul>
 					</nav>
 				</header>

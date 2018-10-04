@@ -1,6 +1,7 @@
 ---
 title: Your Stay
 layout: default
+order: 4
 ---
 
 <section class="box">

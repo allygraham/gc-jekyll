@@ -1,6 +1,7 @@
 ---
 title: Contact
 layout: default
+order: 6
 ---
 
 <div class="box flex--center">

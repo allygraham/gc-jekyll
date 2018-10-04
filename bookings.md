@@ -1,6 +1,7 @@
 ---
-title: Bookings
+title: Bookings and Availability
 layout: default
+order: 3
 ---
 
 <div class="row">
