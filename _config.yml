@@ -1,2 +1,11 @@
-name: Garden Cottage, Crail
+---
 title: Garden Cottage, Crail
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+name: Garden Cottage, Crail
