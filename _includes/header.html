@@ -1,0 +1,11 @@
+<!-- Header -->
+<header id="header" class="alt{% if page.title == 'Home' %}--home{% endif %}">
+    <h1 class="h1--home"><a href="index.html"><img src="assets/images/garden-cottage-logo.png" /></a></h1>
+    <nav id="nav">
+      <ul>
+        {% for item in site.data.navigation.pages %}
+        <li><a href="{{ item.url }}" class="{% if item.url == page.url%}active{% endif %}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>

@@ -1,0 +1,22 @@
+---
+title: Accommodation
+layout: default
+---
+{% for item in site.data.accommodation.areas %}
+{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+<section class="box special features padding-half">
+  <section class="spotlight style1 {% if thecycle == 'even' %}orient-right{% else %}orient-left{% endif %}  content-align-left image-position-center">
+    <div class="content">
+      <h2>{{item.title}}</h2>
+      {{item.content}}
+    </div>
+    <div class="image">
+      <div class="accommodation-gallery {{item.class}}">
+        {% for image in item.images %}
+          <div><img src=assets/images/accommodation/{{item.class}}/{{image}} alt="" /></div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</section>
+{% endfor %}

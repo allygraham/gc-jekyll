@@ -12,50 +12,22 @@
 	<body>
 		<div id="page-wrapper">
 
-			<!-- Header -->
-			<header id="header" class="alt">
-					<h1 class="h1--home"><a href="index.html"><img src="assets/images/garden-cottage-logo.png" /></a></h1>
-					<nav id="nav">
-						<ul>
-              {% for item in site.data.navigation.pages %}
-              <li><a href="{{ item.url }}" class="{% if item.url == page.url%}active{% endif %}">{{ item.title }}</a></li>
-              {% endfor %}
-						</ul>
-					</nav>
-				</header>
+			{% include header.html %}
 
 			<!-- Main -->
-				<section id="main" class="container">
+				<section id="main" class="container {% if page.title == 'Contact' %}75%{% endif %}">
 					<header>
 						<h2 class="border--green">{{ page.title }}</h2>
-						<!-- <p class="border--green">More information about Garden Cottage.</p> -->
           </header>
           
           {{ content }}
 
 				</section>
-
-			<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="https://www.facebook.com/Garden-Cottage-Crail-292524040769856/" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; <script>document.write(new Date().getFullYear());</script> Garden Cottage. All rights reserved.</li>
-				</ul>
-			</footer>
+			
+				{% include footer.html %}
 
 		</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollgress.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/slick/slick.min.js"></script>
+			{% include scripts.html %}
 	</body>
 </html>
