@@ -10,4 +10,4 @@ collections:
     output: true
 name: Garden Cottage, Crail
 plugins:
-  - jekyll-admin
+- jekyll-admin
