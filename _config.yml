@@ -9,3 +9,5 @@ collections:
     title: Uploads
     output: true
 name: Garden Cottage, Crail
+plugins:
+  - jekyll-admin
