@@ -9,9 +9,9 @@ publish_mode: editorial_workflow
 media_folder: "assets/images"
 
 collections:
-  - name: "reviews"
-    label: "Reviews"
-    folder: "_reviews"
+  - name: "data"
+    label: "Data"
+    folder: "_data"
     filter:
       field: language
       value: en
