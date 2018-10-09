@@ -11,3 +11,8 @@ collections:
 name: Garden Cottage, Crail
 plugins:
   - jekyll-admin
+jekyll_admin:
+  hidden_links:
+    - posts
+    - configuration
+    - uploads
