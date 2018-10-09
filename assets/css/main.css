@@ -2624,9 +2624,9 @@
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
-		height: 3em;
-		line-height: 3em;
-		padding: 0 2em;
+		height: 3rem;
+		line-height: 3rem;
+		padding: 0 2rem;
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
@@ -6105,4 +6105,10 @@ body.is-preload .spotlight.onload-image-fade-in .image img {
 
 .slick-slide.slick-active {
 	opacity: 1;
+}
+
+#check-availability-and-prices- {
+	margin-bottom: 2rem;
+	font-size: 1rem !important;
+	line-height: 1rem !important;
 }

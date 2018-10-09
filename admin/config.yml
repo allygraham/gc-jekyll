@@ -9,9 +9,10 @@ publish_mode: editorial_workflow
 media_folder: "assets/images"
 
 collections:
-  - name: "data"
-    label: "Data"
-    folder: "_data"
+  - name: "homepage-gallery"
+    label: "Homepage Gallery"
+    folder: "_data/"
+    create: true
     filter:
       field: language
       value: en
