@@ -12,9 +12,9 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
-      - label: "Homepage gallery"
-        name: "homepage-gallery"
-        file: "data/homepage-gallery.yml"
+      - label: "Homepage"
+        name: "homepage"
+        file: "index.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: markdown}
@@ -27,7 +27,7 @@ collections:
               - {label: Photo, name: photo, widget: image}
       - label: "Accommodation"
         name: "accommodation"
-        file: "data/accommodation.yml"
+        file: "accommodation.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: markdown}
