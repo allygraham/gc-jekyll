@@ -9,12 +9,31 @@ publish_mode: editorial_workflow
 media_folder: "assets/images"
 
 collections:
-  - name: "homepage-gallery"
-    label: "Homepage Gallery"
-    folder: "_data/"
-    create: true
-    filter:
-      field: language
-      value: en
-    fields:
-      - {label: "Language", name: "language"}
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Homepage gallery"
+        name: "homepage-gallery"
+        file: "data/homepage-gallery.yml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: markdown}
+          - label: Team
+            name: team
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Position, name: position, widget: string}
+              - {label: Photo, name: photo, widget: image}
+      - label: "Accommodation"
+        name: "accommodation"
+        file: "data/accommodation.yml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: markdown}
+          - label: Locations
+            name: locations
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Address, name: address, widget: string}
