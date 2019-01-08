@@ -55,3 +55,21 @@ collections:
               - {label: "Date", name: "date", widget: "string"}
               - {label: "Comment", name: "comment", widget: "string"}
               - {label: "Reviewer Name", name: "name", widget: "string"}
+      - label: "Bookings"
+        name: "bookings"
+        file: "bookings.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "content", widget: "markdown"}
+      - label: "Contact"
+        name: "contact"
+        file: "contact.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "content", widget: "markdown"}
+      - label: "Your Stay"
+        name: "your-stay"
+        file: "your-stay.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "content", widget: "markdown"}
