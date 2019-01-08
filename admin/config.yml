@@ -12,8 +12,8 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
-      - label: "Homepage"
-        name: "homepage"
+      - label: "Home"
+        name: "home"
         file: "index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
@@ -42,3 +42,16 @@ collections:
                 fields:
                   - {label: Name, name: name, widget: string}
                   - {label: Image, name: image, widget: image}
+      - label: "Reviews"
+        name: "reviews"
+        file: "reviews.md"
+        fields:
+          - label: Reviews
+            name: reviews
+            widget: list
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Rating", name: "rating", widget: "number"}
+              - {label: "Date", name: "date", widget: "string"}
+              - {label: "Comment", name: "comment", widget: "string"}
+              - {label: "Reviewer Name", name: "name", widget: "string"}
