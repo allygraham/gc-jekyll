@@ -18,22 +18,22 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Intro", name: "intro", widget: "markdown"}
-          - label: Team
-            name: team
+          - {label: "Content", name: "content", widget: "markdown"}
+          - label: Image
+            name: image
             widget: list
             fields:
               - {label: Name, name: name, widget: string}
-              - {label: Position, name: position, widget: string}
-              - {label: Photo, name: photo, widget: image}
+              - {label: Image, name: image, widget: image}
       - label: "Accommodation"
         name: "accommodation"
         file: "accommodation.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: markdown}
-          - label: Accommodation
-            name: accommodation
+          - label: Image
+            name: image
             widget: list
             fields:
               - {label: Name, name: name, widget: string}
-              - {label: Address, name: address, widget: string}
+              - {label: Image, name: image, widget: image}
