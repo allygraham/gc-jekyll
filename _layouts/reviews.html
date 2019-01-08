@@ -6,7 +6,7 @@ layout: default
 <div class="box">
     <ul class="timeline">
 
-      {% for item in site.data.reviews.items %}
+      {% for item in site.data.reviews.reviews %}
       {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
       <li {% if thecycle == 'even' %}class="timeline-inverted"{% endif %}>
         <div class="timeline-badge"><i class="fa fa-comments-o"></i></div>
