@@ -30,6 +30,7 @@ collections:
         file: "accommodation.md"
         fields:
           - label: Areas
+            name: areas
             widget: list
             fields:
               - {label: Title, name: title, widget: string}
