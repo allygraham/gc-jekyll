@@ -4,25 +4,25 @@ timezone: UTC
 collections:
   accommodation:
     title: Accommodation
-    output: false
+    output: true
   bookings:
     title: Bookings
-    output: false
+    output: true
   contact:
     title: Contact
-    output: false
+    output: true
   posts:
     title: Posts
     output: true
   reviews:
     title: Reviews
-    output: false
+    output: true
   uploads:
     title: Uploads
     output: false
   your-stay:
     title: Your Stay
-    output: false
+    output: true
 name: Garden Cottage, Crail
 plugins:
 - jekyll-admin
