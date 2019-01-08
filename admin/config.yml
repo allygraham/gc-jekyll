@@ -16,8 +16,8 @@ collections:
         name: "homepage"
         file: "index.md"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Intro", name: "intro", widget: "markdown"}
           - label: Team
             name: team
             widget: list
@@ -31,8 +31,8 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: markdown}
-          - label: Locations
-            name: locations
+          - label: Accommodation
+            name: accommodation
             widget: list
             fields:
               - {label: Name, name: name, widget: string}

@@ -2,12 +2,12 @@
 title: Garden Cottage, a luxury rental cottage in Crail
 timezone: UTC
 collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
+  - accommodation
+  - bookings
+  - contact
+  - reviews
+  - your-stay
+  - uploads
 name: Garden Cottage, Crail
 plugins:
 - jekyll-admin
@@ -15,4 +15,3 @@ jekyll_admin:
   hidden_links:
   - posts
   - configuration
-  - uploads
