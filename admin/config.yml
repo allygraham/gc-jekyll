@@ -17,10 +17,10 @@ collections:
         file: "index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Intro", name: "intro", widget: "markdown"}
+          - {label: "Class", name: "class", widget: "string"}
           - {label: "Content", name: "content", widget: "markdown"}
-          - label: Image
-            name: image
+          - label: Images
+            name: images
             widget: list
             fields:
               - {label: Name, name: name, widget: string}
@@ -29,11 +29,15 @@ collections:
         name: "accommodation"
         file: "accommodation.md"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: Image
-            name: image
+          - label: Areas
             widget: list
             fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Image, name: image, widget: image}
+              - {label: Title, name: title, widget: string}
+              - {label: "Class", name: "class", widget: "string"}
+              - {label: "Content", name: "content", widget: "markdown"}
+              - label: Images
+                name: images
+                widget: list
+                fields:
+                  - {label: Name, name: name, widget: string}
+                  - {label: Image, name: image, widget: image}
