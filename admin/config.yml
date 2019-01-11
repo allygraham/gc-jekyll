@@ -32,7 +32,7 @@ collections:
         fields:
           - label: Areas
             name: areas
-            widget: list
+            widget: object
             fields:
               - {label: Title, name: title, widget: string}
               - {label: "Class", name: "class", widget: "string"}
