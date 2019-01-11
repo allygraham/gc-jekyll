@@ -29,7 +29,8 @@ collections:
             widget: list
             fields:
               - {label: Name, name: name, widget: string}
-              - {label: Image, name: image, widget: image}
+              - {label: Image Low, name: image-low, widget: image}
+              - {label: Image High, name: image-high, widget: image}
       - label: "Accommodation"
         name: "accommodation"
         file: "_data/accommodation.yml"
