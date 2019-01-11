@@ -4,7 +4,7 @@
   {% endfor %}
 </div>
 <div class="gallery-nav margin-t-2 margin-b-5">
-  {% for image in site.data.homepage-gallery.images %}
-    <div><img src="assets/images/homepage-gallery/low/{{image}}" /></div>
+  {% for image in page.images %}
+    <div><img src="assets/images/homepage-gallery/low/{{image.image}}" alt="{{image.name}}" /></div>
   {% endfor %}
 </div>
