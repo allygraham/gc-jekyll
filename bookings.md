@@ -2,7 +2,7 @@
 title: Bookings and Availability
 layout: full-length
 order: 3
-content: >
+body: >
   ### Bookings Availabiliy and bookings are managed by TripAdvisor
 
 

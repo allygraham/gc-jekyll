@@ -67,7 +67,7 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "full-length"}
           - {label: "Order", name: "order", widget: "hidden", default: 3}
-          - {label: "Content", name: "content", widget: "markdown"}
+          - {label: "Body", name: "body", widget: "markdown"}
       - label: "Contact"
         name: "contact"
         file: "contact.md"
@@ -83,4 +83,4 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "full-length"}
           - {label: "Order", name: "order", widget: "hidden", default: 4}
-          - {label: "Content", name: "content", widget: "markdown"}
+          - {label: "Body", name: "Body", widget: "markdown"}
