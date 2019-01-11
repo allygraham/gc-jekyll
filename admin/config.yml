@@ -83,4 +83,4 @@ collections:
           - {label: "Title", name: "title", widget: "string", default: "Your Stay"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "full-length"}
           - {label: "Order", name: "order", widget: "hidden", default: 4}
-          - {label: "Body", name: "Body", widget: "markdown"}
+          - {label: "Body", name: "body", widget: "markdown"}
