@@ -38,7 +38,7 @@ collections:
             name: "areas"
             widget: list
             fields:
-              - {label: Title, name: title, widget: string}
+              - {label: Title, name: title, widget: string, default: "Accommodation"}
               - {label: "Class", name: "class", widget: "string"}
               - {label: "Content", name: "content", widget: "markdown"}
               - label: Images
@@ -55,7 +55,7 @@ collections:
             name: reviews
             widget: list
             fields:
-              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Title", name: "title", widget: "string", default: "Reviews"}
               - {label: "Rating", name: "rating", widget: "number"}
               - {label: "Date", name: "date", widget: "string"}
               - {label: "Comment", name: "comment", widget: "string"}
@@ -64,7 +64,7 @@ collections:
         name: "bookings"
         file: "bookings.md"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Title", name: "title", widget: "string", default: "Bookings and Availability"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "full-length"}
           - {label: "Order", name: "order", widget: "hidden", default: 3}
           - {label: "Body", name: "body", widget: "markdown"}
@@ -72,7 +72,7 @@ collections:
         name: "contact"
         file: "contact.md"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Title", name: "title", widget: "string", default: "Contact"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "contact"}
           - {label: "Order", name: "order", widget: "hidden", default: 6}
           - {label: "Content", name: "content", widget: "markdown"}
@@ -80,7 +80,7 @@ collections:
         name: "your-stay"
         file: "your-stay.md"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Title", name: "title", widget: "string", default: "Your Stay"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "full-length"}
           - {label: "Order", name: "order", widget: "hidden", default: 4}
           - {label: "Body", name: "Body", widget: "markdown"}
