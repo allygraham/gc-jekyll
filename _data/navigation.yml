@@ -1,19 +1,19 @@
 pages:
 
 - title: Home
-  url: /index.html
+  url: /
 
 - title: Accommodation
-  url: /accommodation.html
+  url: /accommodation
 
 - title: Bookings and Availability 
-  url: /bookings.html
+  url: /bookings
 
 - title: Your Stay
-  url: /your-stay.html
+  url: /your-stay
 
 - title: Reviews
-  url: /reviews.html
+  url: /reviews
 
 - title: Contact
-  url: /contact.html
+  url: /contact
