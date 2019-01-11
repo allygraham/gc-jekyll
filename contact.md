@@ -4,7 +4,7 @@ layout: contact
 order: 6
 ---
 
-For more information please email [info@gardencottagecrail.co.uk](mailto:info@gardencottagecrail.co.uk) or call Alan on 0771 511 6705.
+For more information please email [info@gardencottagecrail.co.uk](mailto:info@gardencottagecrail.co.uk) or call Ally on 0771 511 6705.
 
 <p class="text--left">
   Garden Cottage,<br />
