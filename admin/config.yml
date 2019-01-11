@@ -36,17 +36,17 @@ collections:
         fields:
           - label: "Areas"
             name: "areas"
-            widget: object
+            widget: list
             fields:
               - {label: Title, name: title, widget: string}
               - {label: "Class", name: "class", widget: "string"}
               - {label: "Content", name: "content", widget: "markdown"}
-              - label: Images
-                name: images
-                widget: object
-                fields:
-                  - {label: Name, name: name, widget: string}
-                  - {label: Image, name: image, widget: image}
+              # - label: Images
+              #   name: images
+              #   widget: object
+              #   fields:
+              #     - {label: Name, name: name, widget: string}
+              #     - {label: Image, name: image, widget: image}
       - label: "Reviews"
         name: "reviews"
         file: "_data/reviews.yml"
