@@ -30,9 +30,9 @@ letter. Once a booking has been made, the following cancellation charges
 apply:
 
 * More than 3 months prior to start of booking - Full deposit 
-
 * Between 3 months and 1 month prior to start of booking - 50% of full rental
-cost * Within 1 month prior to start of booking - 100% of full rental cost
+cost 
+* Within 1 month prior to start of booking - 100% of full rental cost
 
 We strongly advise renters take out holiday insurance with a suitable
 provider. 
