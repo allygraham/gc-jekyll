@@ -76,4 +76,6 @@ collections:
         file: "your-stay.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "hidden"}
+          - {label: "Order", name: "order", widget: "hidden"}
           - {label: "Content", name: "content", widget: "markdown"}
