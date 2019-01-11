@@ -6,13 +6,20 @@ areas:
     <p>One of our favourite spots is the two sofas at the back of the living area. French doors flood this area with natural light.</p>
   class: living-area
   images:
-    - 1.jpg
-    - 2.jpg
-    - 3.jpg
-    - 4.jpg
-    - 5.jpg
-    - 6.jpg
-    - 7.jpg
+    - name: 1.jpg
+      image: 1.jpg
+    - name: 2.jpg
+      image: 2.jpg
+    - name: 3.jpg
+      image: 3.jpg
+    - name: 4.jpg
+      image: 4jpg
+    - name: 5.jpg
+      image: 5.jpg
+    - name: 6.jpg
+      image: 6.jpg
+    - name: 7.jpg
+      image: 7.jpg
   
 - title: Family Bedroom
   content: <p>On the ground floor you'll find the family bedroom, a family bathroom and a large, open plan space to the rear which accommodates the kitchen, dining area and living areas.</p>
@@ -20,31 +27,43 @@ areas:
     <p>The family bathroom has a jacuzzi bath tub and "mains" shower over the bath.</p>
   class: family-bedroom
   images:
-    - 1.jpg
-    - 2.jpg
-    - 3.jpg
+    - name: 1.jpg
+      image: 1.jpg
+    - name: 2.jpg
+      image: 2.jpg
+    - name: 3.jpg
+      image: 3.jpg
 
 - title: Master Bedroom
   content: <p>The master bedroom has a king size double bed, double wardrobes, a cheat of drawers and a spacious en-suite shower room.</p>
   class: master-bedroom
   images:
-    - 1.jpg
-    - 2.jpg
+    - name: 1.jpg
+      image: 1.jpg
+    - name: 2.jpg
+      image: 2.jpg
 
 - title: Twin Bedroom
   content: <p>The large twin-bedded room has built in wardrobes, chest of drawers and views over the garden.</p>
   class: twin-bedroom
   images:
-    - 1.jpg
-    - 2.jpg
-    - 3.jpg
-    - 4.jpg
+    - name: 1.jpg
+      image: 1.jpg
+    - name: 2.jpg
+      image: 2.jpg
+    - name: 3.jpg
+      image: 3.jpg
+    - name: 4.jpg
+      image: 4.jpg
 
 - title: Garden
   content: <p>The large walled garden has a patio area, two lawns and plenty of flowers.</p>
     <p>You'll find ample garden furniture, a BBQ and outside lighting so you can stay out long after the sun goes down.</p>
   class: garden
   images: 
-    - 1.jpg
-    - 2.jpg
-    - 3.jpg
+    - name: 1.jpg
+      image: 1.jpg
+    - name: 2.jpg
+      image: 2.jpg
+    - name: 3.jpg
+      image: 3.jpg

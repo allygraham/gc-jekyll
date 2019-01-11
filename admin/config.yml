@@ -33,8 +33,8 @@ collections:
         name: "accommodation"
         file: "_data/accommodation.yml"
         fields:
-          - label: Areas
-            name: areas
+          - label: "Areas"
+            name: "areas"
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
@@ -42,7 +42,7 @@ collections:
               - {label: "Content", name: "content", widget: "markdown"}
               - label: Images
                 name: images
-                widget: list
+                widget: object
                 fields:
                   - {label: Name, name: name, widget: string}
                   - {label: Image, name: image, widget: image}
