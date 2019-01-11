@@ -2,7 +2,9 @@
 title: Your Stay
 layout: full-length
 order: 4
-content: At Garden Cottage you will find just about every modern convenience you could imagine as well as some you might not expect to see in a holiday home. 
+---
+
+At Garden Cottage you will find just about every modern convenience you could imagine as well as some you might not expect to see in a holiday home. 
 All we ask is that you treat the cottage with care so that the next guests find it in the same condition you did. And we know that spillages and breaks happen.
 Unless the damage is extensive, you will not be charged. Please just let us know what happened so we can quickly repair or replace the damaged items.
 
