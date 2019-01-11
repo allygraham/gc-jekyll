@@ -1,6 +1,6 @@
 <div class="gallery-img margin-t-2">
   {% for image in page.images %}
-    <div><img data-lazy="assets/images/{{image-high}}" /></div>
+    <div><img data-lazy="assets/images/{{image.image-high}}" alt="{{image.name}}" /></div>
   {% endfor %}
 </div>
 <div class="gallery-nav margin-t-2 margin-b-5">
