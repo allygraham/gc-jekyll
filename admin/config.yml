@@ -28,7 +28,7 @@ collections:
               - {label: Image, name: image, widget: image}
       - label: "Accommodation"
         name: "accommodation"
-        file: "accommodation.md"
+        file: "_data/accommodation.yml"
         fields:
           - label: Areas
             name: areas
@@ -45,7 +45,7 @@ collections:
                   - {label: Image, name: image, widget: image}
       - label: "Reviews"
         name: "reviews"
-        file: "reviews.md"
+        file: "_data/reviews.yml"
         fields:
           - label: Reviews
             name: reviews
