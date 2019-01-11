@@ -35,6 +35,8 @@ collections:
         name: "accommodation"
         file: "_data/accommodation.yml"
         fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "accommodation"}
+          - {label: "Order", name: "order", widget: "hidden", default: 2}
           - label: "Areas"
             name: "areas"
             widget: list

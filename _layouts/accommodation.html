@@ -14,7 +14,7 @@ layout: default
     <div class="image">
       <div class="accommodation-gallery {{area.class}}">
         {% for image in area.images %}
-          <div><img src=assets/images/accommodation/{{area.class}}/{{image.image}} alt="{{image.name}}" /></div>
+          <div><img src=assets/images/{{image.image}} alt="{{image.name}}" /></div>
         {% endfor %}
       </div>
     </div>
