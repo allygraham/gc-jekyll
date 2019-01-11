@@ -75,7 +75,7 @@ collections:
           - {label: "Title", name: "title", widget: "string", default: "Contact"}
           - {label: "Layout", name: "layout", widget: "hidden", default: "contact"}
           - {label: "Order", name: "order", widget: "hidden", default: 6}
-          - {label: "Content", name: "content", widget: "markdown"}
+          - {label: "Body", name: "body", widget: "markdown"}
       - label: "Your Stay"
         name: "your-stay"
         file: "your-stay.md"

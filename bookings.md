@@ -5,15 +5,12 @@ order: 3
 body: >
   ### Bookings Availabiliy and bookings are managed by TripAdvisor
 
-
   <a
   href="https://www.tripadvisor.co.uk/VacationRentalReview-g551745-d1777377-Garden_Cottage_Crail-Crail_Fife_Scotland.html"
   target="_blank" class="button fix">Check availability and prices <span
   class="fa fa-angle-right fa-lg"></span></a>
 
-
   ### Terms and Conditions of Rental 
-
 
   #### Deposit and Payment 
 
@@ -39,13 +36,11 @@ body: >
   We strongly advise renters take out holiday insurance with a suitable
   provider. 
 
-
   #### Proprietors Right to Cancel 
 
   The proprietor reserves the right to cancel the booking on return of the
   deposit or rental charges and the hirer shall have no further claim against
   the proprietor. 
-
 
   #### Pets 
 
@@ -53,7 +48,6 @@ body: >
   be allowed in bedrooms, on furniture or left unattended at any time in the
   property. It is the renter's responsibility to clean up after their pet both
   in the cottage and in the garden. 
-
 
   #### Liability 
 
