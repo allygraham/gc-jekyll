@@ -5,6 +5,9 @@ backend:
     - admin
     - editor
 
+editor:
+  preview: false
+
 publish_mode: editorial_workflow
 media_folder: "assets/images"
 display_url: https://www.gardencottagecrail.co.uk
