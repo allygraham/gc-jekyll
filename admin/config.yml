@@ -21,7 +21,8 @@ collections:
         file: "index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Class", name: "class", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "homepage"}
+          - {label: "Order", name: "order", widget: "hidden", default: 1}
           - {label: "Content", name: "content", widget: "markdown"}
           - label: Images
             name: images
@@ -64,12 +65,16 @@ collections:
         file: "bookings.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "full-length"}
+          - {label: "Order", name: "order", widget: "hidden", default: 3}
           - {label: "Content", name: "content", widget: "markdown"}
       - label: "Contact"
         name: "contact"
         file: "contact.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "contact"}
+          - {label: "Order", name: "order", widget: "hidden", default: 6}
           - {label: "Content", name: "content", widget: "markdown"}
       - label: "Your Stay"
         name: "your-stay"
