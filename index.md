@@ -2,9 +2,11 @@
 title: Home
 layout: homepage
 order: 1
+images:
+  - name: hi
 ---
 
-## A luxury self-catering holiday home 
+## A luxury self-cate 
 ## set in private gardens just off the main street in Crail.
 
 Garden Cottage has three large bedrooms and comfortably accommodates eight. The beach, shops and pubs are a short stroll away and there's private off-street parking for two cars. 
